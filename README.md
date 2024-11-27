@@ -1,14 +1,21 @@
 # gql-query-builder
 
-![](https://github.com/youyo/gql-query-builder/workflows/Publish%20python%20package/badge.svg)
 
 This is a GraphQL query builder.  
 Use with method chain.
 
+Specifically this is a fork of the original https://github.com/youyo/gql-query-builder with pyproject to fix https://github.com/youyo/gql-query-builder/issues/8 and make it installable from newer python tools
+
+The name in pypi is gql-query-builder-with-pyproject but it still uses `import gql-query-builder`
+
 ## Install
 
 ```
-pip install gql-query-builder
+pip install gql-query-builder-with-pyproject 
+```
+or if using uv
+```
+uv add gql-query-builder-with-pyproject 
 ```
 
 ## Usage
